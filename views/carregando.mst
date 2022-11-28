@@ -1,0 +1,11 @@
+<div>
+<h1>Carregando dados</h1>
+Nome da Sessão:
+{{session}}
+</div>
+<div>
+{{path}}/shared/_cdn/images/qrcode/{{session}}.png
+	<div class="col-sm-12">
+		<center><img src="{{path}}/shared/_cdn/images/qrcode/{{session}}.png"></img></center>
+	</div>
+</div>
