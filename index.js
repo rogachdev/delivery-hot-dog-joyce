@@ -32,7 +32,7 @@ const fs = require('fs')
 
 const cliente = Whatsapp.create({
 	session: _project,
-	whatsappVersion: '2.2230.15',
+	// whatsappVersion: '2.2230.15',
 	puppeteerOptions: { userDataDir: './tokens/' + _project + '.data.json/' },
 	tokenStore: myTokenStore,
 	catchQR: (base64Qrimg, asciiQR, attempts, urlCode) => {},

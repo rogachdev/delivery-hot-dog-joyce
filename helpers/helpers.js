@@ -58,8 +58,8 @@ async function funcgetGestor(key) {
 	console.log('>>> Habilitando...')
 	if (!gestor[key].active) {
 		// Carrega os Menus para o Controle do Projeto
-		let vNow = moment.default(new Date())
-		let _dtAtend = vNow.format('HH:mm:ss')
+		// let vNow = moment.default(new Date())
+		// let _dtAtend = vNow.format('HH:mm:ss')
 		let _cumpr = funcCumprimento()
 
 		console.log('>>> Preparando Menus...')
@@ -101,8 +101,8 @@ async function funcgetGestor(key) {
 					['📴 | *Finalizar*']
 				)) +
 				'\n' +
-				'*Horário do atendimento:*\n' +
-				_dtAtend +
+				// '*Horário do atendimento:*\n' +
+				// _dtAtend +
 				'',
 			2:
 				(await funcGetMenu(

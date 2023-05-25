@@ -10,7 +10,7 @@ const func = require('../helpers/helpers')
 const gestor = require('../models/_gestor')
 const dados = require('../models/_dados')
 
-const moment = __importDefault(require('moment'))
+const moment = require('moment')
 
 // Menu Inicial do Projeto
 function execute(user, msg, client) {
